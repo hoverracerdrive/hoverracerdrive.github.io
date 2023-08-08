@@ -158,38 +158,36 @@
           
 
 
- <!-- ABOUT US AREA START -->
-    <div class="ltn__about-us-area pt-30 pb-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-us-img-wrap about-img-left">
-                        <img src="img/img1.png" alt="About Us Image">
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-us-info-wrap">
-                        <div class="section-title-area ltn__section-title-2">
-    
-                            <h1 class="section-title">Hover Racer Drive Unblocked </h1>
-                            <p>Hover Racer Drive is a super fun game that students can play on their school Chromebooks without any worries</p>
-                        </div>
-                        <p>Imagine racing cool hovercrafts on super cool tracks that can float in the air. The game looks awesome and is easy to play. It's like a race in the future! So, get ready to have a blast, practice your quick thinking, and enjoy this game that's totally okay to play at school.</p>
-                        <div class="about-author-info d-flex">
-                            <div class="author-name-designation  align-self-center mr-30">
-                            <button class="btn theme-btn-1 btn-effect-1 text-uppercase"> <a href="play.html"></a> PLAY NOW</button>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ABOUT US AREA END -->
+
+<!-- iframe Game -->
+<div class="container" style="padding-top:20px; padding-bottom:20px" align="Center">
+  <iframe class="gm-iframe" id="gm-area" src="https://bonbang.github.io/store4/hover-racer-drive/" width="860" height="540" scrolling="none" frameborder="0" allowfullscreen></iframe>
+   <div style="padding-top: 10px;" class="container" align="Center"> 
+      <button  class="btn theme-btn-1 btn-effect-1 text-uppercase" onclick="openFullscreen();">FullScreen</button>
+
+   </div>
+
+<script>
+var elem = document.getElementById("gm-area");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+
+</div>
+<!-- End iframe Game -->
 
             </div>
 
+<div class="section-title-area ltn__section-title-3 text-center">
+                        <h1 class="section-title">Hover Racer Drive</h1>
+                    </div>
 
 
             <div class="row ltn__tab-product-slider-one-active--- slick-arrow-1">
