@@ -802,3 +802,6 @@ smartadserver.com, 3490, DIRECT
 ##################################
 # AdinPlay.com ads.txt - 2024-03-13
 ##################################
+
+
+google.com, pub-6579779939487697, DIRECT, f08c47fec0942fa0
